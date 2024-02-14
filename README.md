@@ -1,6 +1,6 @@
 # @mskelton/semantic-release-config
 
-[![npm version](https://img.shields.io/npm/v/@mskelton/semantic-release-config/next.svg)](https://www.npmjs.com/package/@mskelton/semantic-release-config/g)
+[![npm version](https://img.shields.io/npm/v/@mskelton/semantic-release-config.svg)](https://www.npmjs.com/package/@mskelton/semantic-release-config)
 
 ## Plugins
 
