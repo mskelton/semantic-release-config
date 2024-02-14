@@ -1,0 +1,38 @@
+{
+  "name": "@mskelton/semantic-release-config",
+  "description": "Shared semantic-release configuration",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Mark Skelton",
+  "license": "ISC",
+  "homepage": "https://github.com/mskelton/semantic-release-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskelton/semantic-release-config.git"
+  },
+  "keywords": [
+    "github",
+    "conventional-changelog",
+    "release",
+    "semantic-release",
+    "semantic-release-config",
+    "version"
+  ],
+  "exports": "./index.js",
+  "type": "commonjs",
+  "peerDependencies": {
+    "semantic-release": ">=20.1.0"
+  },
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/release-notes-generator": "^12.0.0",
+    "conventional-changelog-conventionalcommits": "^7.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
