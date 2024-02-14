@@ -10,7 +10,7 @@
   "homepage": "https://github.com/mskelton/semantic-release-config#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mskelton/semantic-release-config.git"
+    "url": "git+https://github.com/mskelton/semantic-release-config.git"
   },
   "keywords": [
     "github",
@@ -22,6 +22,9 @@
   ],
   "exports": "./index.js",
   "type": "commonjs",
+  "scripts": {
+    "fmt": "prettier --write ."
+  },
   "peerDependencies": {
     "semantic-release": ">=20.1.0"
   },
